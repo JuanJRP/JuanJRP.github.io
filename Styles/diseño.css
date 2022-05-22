@@ -1,0 +1,12 @@
+body {
+    background-color: azure;
+}
+
+#cabecera{
+    background-color: aqua;
+}
+
+li{
+    background-color: blue;
+    display: inline;
+}
