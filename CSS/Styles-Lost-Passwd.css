@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../Images/Lost-Passwd.jpg) no-repeat center top;
+    background-size: cover;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.Lost-Password-box{
+    width: 350px;
+    height: 350px;
+    background: transparent;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+
+.Lost-Password-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.Lost-Password-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.Lost-Password-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Lost-Password-box input[type="text"],
+.Lost-Password-box input[type="Email"]
+{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+}
+
+.Lost-Password-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: darkgoldenrod;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.Lost-Password-box input[type="submit"]:hover{
+    color: black;
+}

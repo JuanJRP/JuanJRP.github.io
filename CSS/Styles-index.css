@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(../Images/fondo.jpg) no-repeat center top;
+    background: url(../Images/Index.jpg) no-repeat center top;
     background-size: cover;
     height: 100vh;
     font-family: sans-serif;
@@ -9,8 +9,8 @@ body{
 .login-box{
     width: 320px;
     height: 420px;
-    background: black;
-    color: #fff;
+    background: transparent;
+    color: black;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -50,12 +50,12 @@ body{
 .login-box input[type="text"],
 .login-box input[type="password"]{
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
     background: transparent;
     outline: none;
     height: 40px;
     font-size: 16px;
-    color: white;
+    color: black;
 }
 
 .login-box input[type="submit"]{
@@ -63,7 +63,7 @@ body{
     outline: none;
     height: 40px;
     background: darkgoldenrod;
-    color: white;
+    color: black;
     font-size: 18px;
     border-radius: 20px;
 }
@@ -75,5 +75,9 @@ body{
     color: darkgrey;
 }
 .login-box a:hover{
+    color: white;
+}
+
+.login-box input[type="submit"]:hover{
     color: white;
 }
