@@ -1,6 +1,6 @@
 <?php
 function conn(){
-    $hostname = "db4free.net:3606";
+    $hostname = "85.10.205.173:3306";
     $usuariodb = "dbtaken12";
     $passwrddb = "juanjo1251";
     $dbname = "dbtaken";
