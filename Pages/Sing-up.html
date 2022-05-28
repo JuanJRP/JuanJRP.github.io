@@ -8,19 +8,17 @@
     <body>
         <div class="Sing-up-box">
             <h1>Sing Up</h1>
-            <form>
+            <form action="../PHP/Validar.php" method="post">
                 <label for="FirsName">Firs Name</label>
-                <input type="text" placeholder="Firs Name">
+                <input type="text" placeholder="Firs Name" name="firs" required>
                 <label for="LastName">Last Name</label>
-                <input type="text" placeholder="Last Name">
-                <label for="Username">User Name</label>
-                <input type="text" placeholder="User Name">
-                <label for="Password">Password</label>
-                <input type="text" placeholder="Password">
+                <input type="text" placeholder="Last Name" name="last" required>
                 <label for="Email">Email</label>
-                <input type="email" placeholder="Email">
-                <label for="Phone">Phone</label>
-                <input type="text" placeholder="Phone">
+                <input type="email" placeholder="Email" name="email" required>
+                <label for="Username">User Name</label>
+                <input type="text" placeholder="User Name" name="user" required>
+                <label for="Password">Password</label>
+                <input type="text" placeholder="Password" name="password" required>
                 <input type="submit" value="Sing Up">
             </form>
         </div>
