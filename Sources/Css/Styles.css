@@ -1,0 +1,62 @@
+body{
+    background-image: url(/Hotel/Sources/Img/2690549.jpg);
+    background-size: cover;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+}
+
+form{
+    width: 400px;
+    height: 450px;
+    border: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    border-radius: 10px;
+    background: rgba(10, 12, 27, .5);
+}
+
+.Flex{
+    display: flex;
+}
+
+.button{
+    margin-left: 5%;
+    height: 35px;
+    width: 360px;
+    opacity: 100%;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section{
+    margin: 2%;
+    margin-left: 4%;
+    display: inline-grid;
+    opacity: 100%;
+}
+
+input{
+    margin: 3px;
+    width: 200px;
+}
+
+label{
+    margin-top: 5px;
+}
+
+.inputs-2{
+    margin-left: 6%;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.button:hover{
+    color: white;
+    background-color: rgba(10, 12, 27, .5);
+    cursor: pointer;
+}

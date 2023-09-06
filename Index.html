@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Sources/Css/Styles.css">
+    <title>Hotel</title>
+</head>
+<body>
+    <form action="">
+        <h1>Cotizar vacaciones en hotel el CIELO</h1>
+        <section class="Flex">
+            <section>
+                <label for="">Nro Personas</label>
+                <label for="">Nro Dias</label>
+                <label for="">Valor Personas</label>
+            </section>
+            
+            <section>
+                <input type="text" placeholder="Nro Personas" id="nroPersonas">
+                <input type="text" placeholder="Nro Dias" id="nroDias">
+                <input type="text" placeholder="Valor Personas" id="vlrPersonas">
+            </section>
+        </section>
+
+        <input type="button" value="Cotizar" onclick="Calcular()" class="button">
+        
+        <section class="Flex">
+            <section>
+                <label for="">Subtotal</label>
+                <label for="">Descuento</label>
+                <label for="">Iva 19%</label>
+                <label for="">Total a Pagar</label>
+            </section>
+            
+            <section class="inputs-2"> 
+                <input type="text" placeholder="Subtotal" id="subtotal">
+                <input type="text" placeholder="Descuento" id="descuento">
+                <input type="text" placeholder="Iva" id="iva">
+                <input type="text" placeholder="Total a Pagar" id="total">
+            </section>
+        </section>
+    </form>
+    <script src="/Sources/Js/Hotel.js"></script>
+</body>
+</html>
